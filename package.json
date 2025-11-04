@@ -1,7 +1,12 @@
-cd percorso/della/cartella/intelligest-realtime
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/tuoutente/intelligest-realtime.git
-git push -u origin main
+{
+  "name": "intelligest-realtime",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.0",
+    "socket.io": "^4.7.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
