@@ -1,0 +1,7 @@
+cd percorso/della/cartella/intelligest-realtime
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tuoutente/intelligest-realtime.git
+git push -u origin main
